@@ -1,6 +1,6 @@
 <?php
 
-namespace Knp\Bundle\MenuBundle\DependencyInjection;
+namespace Tarkantoan\BundleTest\DependencyInjection;
 
 use Knp\Menu\ItemInterface;
 use Knp\Menu\Matcher\Voter\VoterInterface;
