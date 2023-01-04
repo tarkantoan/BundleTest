@@ -1,0 +1,8 @@
+.gitattributes   export-ignore
+.github          export-ignore
+.gitignore       export-ignore
+.php-cs-fixer.*  export-ignore
+.symfony*        export-ignore
+phpunit.xml.dist export-ignore
+docs             export-ignore
+tests            export-ignore

@@ -1,0 +1,36 @@
+{
+    "name": "tarkantoan/bundle-test",
+    "description": "This bundle provides an integration of the KnpMenu library",
+    "keywords": [
+        "menu"
+    ],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tarkantoan\\BundleTest\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tarkantoan\\BundleTest\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tarkan Antoan Başar",
+            "email": "tarkanbasar@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "knplabs/knp-menu": "^3.3",
+        "symfony/framework-bundle": "^3.4 | ^4.4 | ^5.0 | ^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "symfony/expression-language": "^3.4 | ^4.4 | ^5.0 | ^6.0",
+        "symfony/phpunit-bridge": "^6.0",
+        "symfony/templating": "^3.4 | ^4.4 | ^5.0 | ^6.0"
+    }
+}
