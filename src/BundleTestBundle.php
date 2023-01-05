@@ -9,6 +9,7 @@ final class BundleTestBundle extends Bundle
 {
     public function build(ContainerBuilder $container): void
     {
+        exit;
         parent::build($container);
     }
 }
